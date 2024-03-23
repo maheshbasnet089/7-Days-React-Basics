@@ -1,8 +1,12 @@
+import Button from "./Button"
 
 function Home(){
     return (
         <div>
-          <h1>This is Home Page</h1>
+         <Button  />
+         <Button />
+         <Button />
+      
         </div>
     )
 }
