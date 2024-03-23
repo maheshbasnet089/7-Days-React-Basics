@@ -14,7 +14,9 @@ const About = () => {
    }
 
    const decCount = () => {
-    setNumber(number-1)
+    if(number!=0){
+      setNumber(number-1)
+    }
   }
 
   return (
